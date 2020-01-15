@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TodoList.xcodeproj">
+      location = "group:/Users/aparnnahariharan/workspace/github/todoListApp/TodoList/ViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

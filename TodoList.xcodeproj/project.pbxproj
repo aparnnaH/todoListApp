@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		5022D54223B9503B007B04BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5022D54123B9503B007B04BF /* AppDelegate.swift */; };
 		5022D54423B9503B007B04BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5022D54323B9503B007B04BF /* SceneDelegate.swift */; };
-		5022D54623B9503B007B04BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5022D54523B9503B007B04BF /* ViewController.swift */; };
 		5022D54923B9503B007B04BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5022D54723B9503B007B04BF /* Main.storyboard */; };
 		5022D54B23B9503C007B04BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5022D54A23B9503C007B04BF /* Assets.xcassets */; };
 		5022D54E23B9503C007B04BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5022D54C23B9503C007B04BF /* LaunchScreen.storyboard */; };
 		5022D55623B979AA007B04BF /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5022D55523B979AA007B04BF /* TaskCell.swift */; };
+		50D90E4923CCCC5F005F7A70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D90E4823CCCC5F005F7A70 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5022D53E23B9503B007B04BF /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5022D54123B9503B007B04BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5022D54323B9503B007B04BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5022D54523B9503B007B04BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5022D54823B9503B007B04BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5022D54A23B9503C007B04BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5022D54D23B9503C007B04BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5022D54F23B9503C007B04BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5022D55523B979AA007B04BF /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		50D90E4823CCCC5F005F7A70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = /Users/aparnnahariharan/workspace/github/todoListApp/TodoList/ViewController.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 		5022D54023B9503B007B04BF /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				50D90E4823CCCC5F005F7A70 /* ViewController.swift */,
 				5022D54123B9503B007B04BF /* AppDelegate.swift */,
 				5022D54323B9503B007B04BF /* SceneDelegate.swift */,
-				5022D54523B9503B007B04BF /* ViewController.swift */,
 				5022D55523B979AA007B04BF /* TaskCell.swift */,
 				5022D54723B9503B007B04BF /* Main.storyboard */,
 				5022D54A23B9503C007B04BF /* Assets.xcassets */,
@@ -142,8 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5022D55623B979AA007B04BF /* TaskCell.swift in Sources */,
-				5022D54623B9503B007B04BF /* ViewController.swift in Sources */,
 				5022D54223B9503B007B04BF /* AppDelegate.swift in Sources */,
+				50D90E4923CCCC5F005F7A70 /* ViewController.swift in Sources */,
 				5022D54423B9503B007B04BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

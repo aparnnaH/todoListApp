@@ -8,10 +8,10 @@
 
 import UIKit
 import UserNotifications
+import SwiftUI
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, ChangeButton {
 
-    
     var tasks: [Task] = []
     
     @IBOutlet weak var tableView: UITableView!
@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var taskNameOutlet: UITextField!
     
     override func viewDidLoad() {
-        tasks.append(Task(name:"Test object"))
+        //tasks.append(Task(name:"Test object"))
         super.viewDidLoad()
         self.taskNameOutlet.delegate = self
         
@@ -82,6 +82,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         content.sound = .default
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        
         var date = DateComponents()
         date.hour = 6
         date.minute = 30
@@ -120,5 +121,5 @@ class Task {
         self.name = name
     }
     
-    
 }
+
